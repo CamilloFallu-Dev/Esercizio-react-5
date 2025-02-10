@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Counter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0); // è un hook che permette di gestire lo stato all'interno di un componente ----- hook che permette di eseguire effetti collaterali in un componente
   function incremento() {
     setCount(count + 1);
   }
